@@ -13,8 +13,10 @@ namespace LinkedListPractical
 
 
             // Testing LinearSearch method
-            var result = SearchingArray.LinearSearch(new int[] { 2000, -3000, 4000, -5000, 6000 }, 55000);
-            Console.WriteLine(result);
+            //var result = SearchingArray.LinearSearch(new int[] { 2000, -3000, 4000, -5000, 6000 }, 55000);
+            //Console.WriteLine(result);
+
+            FibonacciSequence.Fibonacci(10);
         }
     }
 }
